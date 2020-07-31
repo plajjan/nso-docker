@@ -52,7 +52,7 @@ test:
 	$(MAKE) test-shutdown
 	$(MAKE) test-error-exit-code
 	$(MAKE) test-ncs-stop
-	$(MAKE) test-admin-user
+	#$(MAKE) test-admin-user
 	$(MAKE) test-admin-user-custom
 	$(MAKE) test-admin-user-sshkey
 	$(MAKE) test-post-start-script
